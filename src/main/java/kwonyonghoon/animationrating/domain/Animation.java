@@ -37,4 +37,10 @@ public class Animation {
         this.description = description;
         this.thumbnail = thumbnail;
     }
+
+    public void Update(String title, String description, String thumbnail) {
+        this.title = title;
+        this.description = description;
+        this.thumbnail = thumbnail;
+    }
 }
