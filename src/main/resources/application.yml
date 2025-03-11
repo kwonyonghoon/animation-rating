@@ -3,7 +3,7 @@ spring:
     # 전송 쿼리 확인
     show-sql: true
     properties:
-      hivernate:
+      hibernate:
         format_sql: true
     # 테이블 생성 후에 data.sql 실행
     defer-datasource-initialization: true
@@ -14,3 +14,6 @@ spring:
   h2:
     console:
       enabled: true
+
+file:
+  path: C:\Users\USER\Desktop\study\spring\animation-rating\animation-rating\src\main\resources\uploads

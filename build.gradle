@@ -21,6 +21,7 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.3'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 }
 
 test {
